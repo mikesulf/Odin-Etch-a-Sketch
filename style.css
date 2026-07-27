@@ -1,5 +1,5 @@
 .container{
-    display:: flex;
+    display: flex;
 }
 
 .divRows {
@@ -8,7 +8,8 @@
 }
 
 .rowCells {
-    border: 5px solid darkblue;
+    border: 1px solid black;
     height: 100px;
     width: 100px;  
 }
+
