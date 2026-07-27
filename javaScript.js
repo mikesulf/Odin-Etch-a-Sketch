@@ -17,12 +17,10 @@ for (i = 0; i < x; i++){
 
 
 
-//credit for help figuring out how to add attributes to a listen event --> https://stackoverflow.com/questions/8318591/javascript-addeventlistener-using-to-create-a-mouseover-effect
 
 document.querySelector("body").addEventListener("mouseover", (e) => {
     e.preventDefault();
-
-    e.target.setAttribute("data-toggle-id", true);
     let cellId = e.target.id
     console.log(cellId)
+    e.target.setAttribute("style", "background-color:black")
 })
